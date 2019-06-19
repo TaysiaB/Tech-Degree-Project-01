@@ -184,6 +184,7 @@ a.social:hover {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  padding: 30px
 }
 
 .flip-card:hover .flip-card-inner {
@@ -195,17 +196,20 @@ a.social:hover {
   width: 150%;
   height: 150%;
   backface-visibility: hidden;
+  padding: 30px
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: white;
   color: black;
+  padding: 30px
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: white;
+  color: black;
   transform: rotateY(180deg);
+  padding: 30px
 }
 
 /* Styles for larger screens */
