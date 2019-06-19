@@ -178,8 +178,8 @@ a.social:hover {
 
 .flip-card-inner {
   position: relative;
-  width: 300%;
-  height: 300%;
+  width: 150%;
+  height: 150%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -191,8 +191,8 @@ a.social:hover {
 
 .flip-card-front, .flip-card-back {
   position: absolute;
-  width: 300%;
-  height: 300%;
+  width: 150%;
+  height: 150%;
   backface-visibility: hidden;
 }
 
