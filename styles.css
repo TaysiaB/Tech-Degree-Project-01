@@ -188,7 +188,7 @@ a.social:hover {
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .flip-card-front, .flip-card-back {
@@ -196,7 +196,6 @@ a.social:hover {
   width: 150%;
   height: 150%;
   backface-visibility: hidden;
-  padding: 30px
 }
 
 .flip-card-front {
@@ -208,7 +207,7 @@ a.social:hover {
 .flip-card-back {
   background-color: white;
   color: black;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
   padding: 30px
 }
 
