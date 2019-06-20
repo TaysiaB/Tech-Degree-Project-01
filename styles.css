@@ -168,7 +168,7 @@ a.social:hover {
 }
 
 .resume-topic {
-  background-color: rgb(26, 26, 207);
+  background-color: rgb(40, 149, 185);
   color: white;
   text-align: justify;
   padding: 1px;
@@ -176,10 +176,18 @@ a.social:hover {
 }
 
 .resume-content {
-  background-color: rgb(40, 149, 185);
+  background-color: rgb(96, 121, 129);
   color: white;
   text-align: left;
   padding: right 50px;
+}
+
+.resume-link {
+  color: navy;
+}
+
+.imgs {
+  border: solid black 4px;
 }
 
 /* Styles for larger screens */
