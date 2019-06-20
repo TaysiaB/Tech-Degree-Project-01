@@ -179,7 +179,7 @@ a.social:hover {
   background-color: rgb(96, 121, 129);
   color: white;
   text-align: left;
-  padding: right 50px;
+  padding: 50px;
 }
 
 .resume-link {
@@ -188,8 +188,13 @@ a.social:hover {
 
 .imgs {
   border: solid black 4px;
+  height: 250px;
+  width: 200px;
 }
 
+.paragraph {
+  margin: 100px 100px 100px 100px;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
