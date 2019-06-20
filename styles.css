@@ -167,23 +167,12 @@ a.social:hover {
   clear: both;
 }
 
-.resume-name {
-  background-color: #dadadaec;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  width: 25%;
-  display: table;
-  margin: 10px auto;
-  text-align: center;
-}
-
 .resume-topic {
   background-color: darkblue;
   color: white;
   text-align: justify;
-  padding: 10px;
-  width: 25%;
+  padding: 1px;
+  width: 100%;
 }
 
 .resume-content {
@@ -191,9 +180,7 @@ a.social:hover {
   color: white;
   text-align: left;
   padding: right 50px;
-  font-size: 20px;
 }
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
