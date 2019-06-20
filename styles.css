@@ -168,7 +168,7 @@ a.social:hover {
 }
 
 .resume-topic {
-  background-color: darkblue;
+  background-color: rgb(26, 26, 207);
   color: white;
   text-align: justify;
   padding: 1px;
@@ -176,7 +176,7 @@ a.social:hover {
 }
 
 .resume-content {
-  background-color: lightblue;
+  background-color: rgb(40, 149, 185);
   color: white;
   text-align: left;
   padding: right 50px;
