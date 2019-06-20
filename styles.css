@@ -181,13 +181,14 @@ a.social:hover {
 .resume-topc {
   background-color: (17, 26, 110);
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .resume-content {
   background-color: lightblue;
   color: white;
   text-align: left;
+  padding: right 50px;
 }
 
 
