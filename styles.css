@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(73, 73, 248);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(73, 73, 248);
 }
 
 footer {
@@ -167,50 +167,27 @@ a.social:hover {
   clear: both;
 }
 
-/* Code adapted from  */
-.flip-card {
-  background-color: transparent;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-  padding: 30px
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 150%;
-  height: 150%;
+/*Collapsible code adpated from: https://www.w3schools.com/howto/howto_js_collapsible.asp*/
+.collapsible {
+  background-color: rgb(73, 73, 248);
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border: solid, white, 2px;
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  padding: 30px
+  font-size: 15px;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateX(180deg);
+.active, .collapsible:hover {
+  background-color: rgb(17, 26, 110);
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 150%;
-  height: 150%;
-  backface-visibility: hidden;
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f31717;
 }
-
-.flip-card-front {
-  background-color: white;
-  color: black;
-  padding: 30px
-}
-
-.flip-card-back {
-  background-color: white;
-  color: black;
-  transform: rotateX(180deg);
-  padding: 30px
-}
-
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
