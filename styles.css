@@ -179,14 +179,11 @@ a.social:hover {
 }
 
 .resume-topic {
-  background-color: (17, 26, 110);
+  background-color: darkblue;
   color: white;
-  text-align: left;
+  text-align: justify;
   padding: 10px;
-  border-radius: 5px;
   width: 25%;
-  display: table;
-  margin: 10px auto;
 }
 
 .resume-content {
