@@ -172,23 +172,22 @@ a.social:hover {
   color: black;
   padding: 10px;
   border-radius: 5px;
-  width: 50%;
+  width: 25%;
   display: table;
   margin: 10px auto;
   text-align: center;
 }
 
 .resume-topc {
-  width: 100%;
   background-color: (17, 26, 110);
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .resume-content {
   background-color: lightblue;
   color: white;
-  text-align: right;
+  text-align: left;
 }
 
 
