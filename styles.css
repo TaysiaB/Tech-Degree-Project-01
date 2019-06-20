@@ -167,28 +167,33 @@ a.social:hover {
   clear: both;
 }
 
-/*Collapsible code adpated from: https://www.w3schools.com/howto/howto_js_collapsible.asp*/
-.collapsible {
-  background-color: rgb(17, 26, 110);
-  color: white;
-  cursor:pointer;
-  padding: 20px;
+.resume-name {
+  background-color: #dadadaec;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  display: table;
+  margin: 10px auto;
+}
+
+.resume-topc {
   width: 100%;
-  border: solid, white, 2px;
+  background-color: (17, 26, 110);
+  color: white;
   text-align: center;
-  font-size: 15px;
+  padding: 10px;
+  margin: 10px auto;
 }
 
-.active, .collapsible:hover {
-  background-color: rgb(6, 12, 65);
+.resume-content {
+  background-color: lightblue;
+  color: white;
+  text-align: right;
+  font-size: 30px;
 }
 
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f31717;
-}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
